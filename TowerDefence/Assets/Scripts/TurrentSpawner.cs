@@ -49,7 +49,7 @@ public class TurrentSpawner : MonoBehaviour
 
                 if (hitInfo.collider.CompareTag("Turrent"))
                 {
-                    GameObject turrent = hitInfo.collider.transform.parent.gameObject;
+                    GameObject turrent = hitInfo.collider.gameObject;
                     turrent.SetActive(false);
                     remainingTurrents += 1;
                     SetUI();

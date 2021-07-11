@@ -1762,7 +1762,7 @@ MonoBehaviour:
   m_cam: {fileID: 963194227}
   m_targetLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 768
   m_navMeshSurface: {fileID: 406761817}
   m_turrentText: {fileID: 2104378392}
   m_maxTurrents: 5
